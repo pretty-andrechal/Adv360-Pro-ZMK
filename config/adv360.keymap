@@ -86,9 +86,9 @@
 
         Dvorak {
             bindings = <
-&kp ESC    &kp N1         &kp N2        &kp N3        &kp N4              &kp N5  &to 0                                                     &to 4      &kp N6  &kp N7         &kp N8        &kp N9        &kp N0         &kp BSLH
+&kp EQUAL  &kp N1         &kp N2        &kp N3        &kp N4              &kp N5  &to 0                                                     &mo 3      &kp N6  &kp N7         &kp N8        &kp N9        &kp N0         &kp BSLH
 &kp TAB    &kp APOS       &kp COMMA     &kp DOT       &kp P               &kp Y   &to 1                                                     &to 5      &kp F   &kp G          &kp C         &kp R         &kp L          &kp FSLH
-&kp CAPS   &hm_l LCTRL A  &hm_l LALT O  &hm_l LGUI E  &hm_l LEFT_SHIFT U  &kp I   &to 2      &kp LCTRL  &trans        &trans     &kp RCTRL  &to 6      &kp D   &hm_r RSHFT H  &hm_r RGUI T  &hm_r RALT N  &hm_r RCTRL S  &kp MINUS
+&kp ESC    &hm_l LCTRL A  &hm_l LALT O  &hm_l LGUI E  &hm_l LEFT_SHIFT U  &kp I   &to 2      &kp LCTRL  &trans        &trans     &kp RCTRL  &to 6      &kp D   &hm_r RSHFT H  &hm_r RGUI T  &hm_r RALT N  &hm_r RCTRL S  &kp MINUS
 &kp LSHFT  &kp SEMI       &kp Q         &kp J         &kp K               &kp X                         &kp HOME      &kp PG_UP                        &kp B   &kp M          &kp W         &kp V         &kp Z          &kp RSHFT
 &trans     &kp GRAVE      &kp BSPC      &kp LEFT      &kp RIGHT                   &kp LSHFT  &trans     &kp END       &kp PG_DN  &kp RET    &kp SPACE          &kp UP         &kp DOWN      &trans        &trans         &trans
             >;
