@@ -96,11 +96,11 @@
 
         enthium {
             bindings = <
-&kp TILDE  &kp N1                &kp N2            &kp N3            &kp N4              &kp N5         &to 0                                          &to 4      &kp N6  &kp N7               &kp N8                &kp N9             &kp N0                 &trans
-&kp TAB    &kp B                 &kp Y             &kp O             &kp U               &kp SLASH      &to 1                                          &to 5      &kp X   &kp L                &kp D                 &kp W              &kp V                  &trans
-&kp Q      &hm_l LEFT_CONTROL C  &hm_l LEFT_ALT I  &hm_l LEFT_GUI E  &hm_l LEFT_SHIFT A  &kp COMMA      &to 2   &trans  &trans      &trans  &trans     &to 6      &kp K   &hm_r RIGHT_SHIFT H  &hm_r RIGHT_GUI T     &hm_r RIGHT_ALT S  &hm_r RIGHT_CONTROL N  &kp Z
-&kp LSHFT  &kp SQT               &kp MINUS         &kp EQUAL         &kp PERIOD          &kp SEMICOLON                  &trans      &trans                        &kp J   &kp M                &kp G                 &kp P              &kp F                  &kp RSHFT
-&trans     &trans                &trans            &trans            &trans                             &trans  &trans  &trans      &trans  &kp ENTER  &kp SPACE          &kp R                &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET   &kp RIGHT_BRACKET      &kp RIGHT_PARENTHESIS
+&kp ESCAPE  &kp N1                &kp N2            &kp N3            &kp N4              &kp N5         &to 0                                                                  &to 4      &kp N6  &kp N7               &kp N8                &kp N9             &kp N0                 &trans
+&kp TAB     &kp B                 &kp Y             &kp O             &kp U               &kp SLASH      &to 1                                                                  &to 5      &kp X   &kp L                &kp D                 &kp W              &kp V                  &trans
+&kp Q       &hm_l LEFT_CONTROL C  &hm_l LEFT_ALT I  &hm_l LEFT_GUI E  &hm_l LEFT_SHIFT A  &kp COMMA      &to 2           &kp UP_ARROW  &trans              &kp LEFT  &kp RIGHT  &to 6      &kp K   &hm_r RIGHT_SHIFT H  &hm_r RIGHT_GUI T     &hm_r RIGHT_ALT S  &hm_r RIGHT_CONTROL N  &kp Z
+&kp TILDE   &kp SQT               &kp MINUS         &kp EQUAL         &kp PERIOD          &kp SEMICOLON                                &kp DOWN_ARROW      &trans                          &kp J   &kp M                &kp G                 &kp P              &kp F                  &kp RSHFT
+&trans      &kp UP_ARROW          &kp LEFT_ARROW    &kp RIGHT_ARROW   &kp DOWN_ARROW                     &kp LEFT_SHIFT  &kp DEL       &trans              &trans    &kp ENTER  &kp SPACE          &kp R                &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET   &kp RIGHT_BRACKET      &kp RIGHT_PARENTHESIS
             >;
         };
 
